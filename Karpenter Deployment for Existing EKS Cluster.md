@@ -273,7 +273,7 @@ kubectl logs -n karpenter -l app.kubernetes.io/name=karpenter -f
 # nodepool-examples.yaml
 # Advanced Karpenter NodePool configurations
 ###############################################
-
+```hcl
 ---
 # 1. General Purpose - Cost Optimized (Spot Heavy)
 apiVersion: karpenter.sh/v1
